@@ -9,13 +9,15 @@ Diego Calderón (241263) y Pedro Caso (241286)
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate        # Linux / macOS
-# .venv\Scripts\activate         # Windows
 ```
 
 ### 2. Instalar dependencias
 
 ```bash
+# Activar el venv PRIMERO
+source .venv/bin/activate        # Linux / macOS
+# .venv\Scripts\activate         # Windows
+
 pip install -r requirements.txt
 ```
 
